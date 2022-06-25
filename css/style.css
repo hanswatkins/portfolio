@@ -1,12 +1,5 @@
 
 /* MOBILE STYLING */
-
-
-body {
-    background-image: url(/images/home-bg2.jpg);
-    
-}
-
 .home-title {
     position: absolute;
     top: 50%;
@@ -15,14 +8,19 @@ body {
     width: 80%;
     padding: 20px;
     text-align: center;
-    color: white; 
-    /* display: flex;
+    display: flex;
     text-align: center;
-    justify-content: center; */
+    justify-content: center;
 }
 
 a {
     text-decoration: none;
+    color: black;
+}
+
+.project-image {
+    float: left;
+    padding: 1rem;
 }
 
 
