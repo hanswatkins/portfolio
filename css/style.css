@@ -1,21 +1,71 @@
 
 /* MOBILE STYLING */
-.home-title {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 80%;
-    padding: 20px;
-    text-align: center;
+
+/* PAGE CLASSES */
+
+.nav-page {
+    font-family: 'Montserrat', sans-serif;
     display: flex;
+    flex-direction: column;
+    line-height: 0;
     text-align: center;
-    justify-content: center;
+    margin-top: 40vh;
+    color: #F2D6BD;
+
+}
+
+.about-page {
+    background-color: #2E5159;
+}
+
+.projects-page {
+    background-color: #2E5159;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+
+.links-page {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #8C8577;
+    color: #F2D6BD
+}
+.home-title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: bold;
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+    text-align: center;
+    margin-top: 50vh;
+    color: #F2D6BD;
+    
+}
+
+.home-title:hover {
+    transition: 0.2s;
+    color: white;
+    font-size: 35px;
+}
+
+.home-page {
+    background: #2E5159
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: #F2D6BD;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    font-size: large;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
 }
 
 .project-image {
@@ -23,7 +73,62 @@ a {
     padding: 1rem;
 }
 
+.portrait {
 
+    width: 20%;
+    height: 20%;
+    float: right;
+    margin-right: 5rem;
+
+}
+
+header {
+    text-align: center;
+
+}
+
+.nav-body {
+    background: #142426;
+}
+
+.about-header {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.find-me-on-the-web {
+    font-size: larger;
+    text-align: center;
+    line-height: 0.5;
+    margin-top: 30vh;
+}
+
+.links-subhead {
+    color:#F2D6BD;
+    font-size: smaller;
+    line-height: 0;
+
+}
+
+.linktree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    text-decoration: none;
+    padding: 12px 28px;
+    margin: 10px;
+    border-radius: 4px;
+    transition-duration: 0.5;
+
+}
+
+button:hover {
+    background-color: lightgray;
+    color: white;
+}
 
 
 
@@ -34,4 +139,23 @@ a {
         background-color: orange;
         color: white;
     }
+}
+
+/* css hover by Ian Lunn https://github.com/IanLunn/Hover */
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.3);
 }
