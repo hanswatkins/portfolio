@@ -1,35 +1,13 @@
 
-/* MOBILE STYLING */
+/*=========================MOBILE STYLING==============================*/
 
-/* PAGE CLASSES */
+/* -------------------PAGE CLASSES------------------ */
 
-.nav-page {
-    font-family: 'Montserrat', sans-serif;
-    display: flex;
-    flex-direction: column;
-    line-height: 0;
-    text-align: center;
-    margin-top: 40vh;
-    color: #F2D6BD;
-
+/* --------------------HOME PAGE------------------*/
+.home-page {
+    background: #2E5159
 }
 
-.about-page {
-    background-color: #2E5159;
-}
-
-.projects-page {
-    background-color: #2E5159;
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-}
-
-
-.links-page {
-    font-family: 'Montserrat', sans-serif;
-    background-color: #8C8577;
-    color: #F2D6BD
-}
 .home-title {
     font-family: 'Montserrat', sans-serif;
     font-style: bold;
@@ -48,29 +26,30 @@
     font-size: 35px;
 }
 
-.home-page {
-    background: #2E5159
-}
+/* --------------NAV PAGE----------------- */
 
-a {
-    text-decoration: none;
-    color: #F2D6BD;
-}
-
-p {
+.nav-page {
     font-family: 'Montserrat', sans-serif;
-    font-weight: lighter;
-    font-size: large;
-}
-
-nav {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    line-height: 0;
+    text-align: center;
+    margin-top: 40vh;
+    color: #F2D6BD;
+
 }
 
-.project-image {
-    float: left;
-    padding: 1rem;
+
+
+/* --------------ABOUT PAGE --------------*/
+
+.about-page {
+    background-color: #2E5159;
+}
+
+.about-header {
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 .portrait {
@@ -82,18 +61,31 @@ nav {
 
 }
 
-header {
-    text-align: center;
-
-}
-
-.nav-body {
-    background: #142426;
-}
-
-.about-header {
+/* --------------PROJECTS PAGE----------- */
+.projects-page {
+    background-color: #2E5159;
     font-family: 'Montserrat', sans-serif;
+    color: white;
+}
 
+.project-image {
+    float: left;
+    padding: 1rem;
+}
+
+/* ---------------LINKS PAGE-------------- */
+
+
+.links-page {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #8C8577;
+    color: #F2D6BD
+}
+
+.linktree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .find-me-on-the-web {
@@ -108,12 +100,6 @@ header {
     font-size: smaller;
     line-height: 0;
 
-}
-
-.linktree {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 button {
@@ -131,8 +117,34 @@ button:hover {
 }
 
 
+/*----------- INDIVIDUAL ELEMENTS -------------*/
+a {
+    text-decoration: none;
+    color: #F2D6BD;
+}
 
-/* DESKTOP STYLING */
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    font-size: large;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    text-align: center;
+
+}
+
+.nav-body {
+    background: #142426;
+}
+
+
+/*==============================DESKTOP STYLING============================ */
 
 @media (min-width: 600px) {
     body {
