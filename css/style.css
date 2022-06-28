@@ -7,7 +7,7 @@
 
 
 .home-page {
-    background-color: #8C8577;
+    background-color: #780116;
     background-image: url("/images/broken-noise.png");
 }
 
@@ -19,7 +19,7 @@
     line-height: 1;
     text-align: center;
     margin-top: 45vh;
-    color: #F2D6BD;
+    color: #F7B538;
     
 }
 
@@ -181,6 +181,9 @@ header {
 /*==============================DESKTOP STYLING============================ */
 
 @media (min-width: 480px) {
+
+    /* about */ 
+
     #about-impact-text {
         font-family: 'Montserrat', sans-serif;
         font-size: 60px;
@@ -207,6 +210,27 @@ header {
         top: ;
         left: 50%;
     }
+
+    /* nav */
+    .nav-body {
+        background-color: #8C8577;;
+        background-image: url("/images/broken-noise.png");
+    }
+    
+    .nav-menu {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2rem;
+        display: flex;
+        flex-direction: column;
+        margin-top: 33vh;
+        color: #F2D6BD;
+    
+    }
+
+    i {
+        size: 100%;
+    }
+
 }
 
 /* css hover by Ian Lunn https://github.com/IanLunn/Hover */
