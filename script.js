@@ -1,16 +1,16 @@
 console.log('Connected to script.js!')
 
-// queryselector
+// query selectors
 const easterEgg = document.querySelector(".home-title");
 
-//function
+//functions
+
+//background color change on hover
 changeBg = function () {
-    console.log('mouse enter!')
     document.body.style.backgroundColor = '#DB7C26';
 };
 
 changeBgBack = function () {
-    console.log('mouse leave!')
     document.body.style.backgroundColor = '#780116'
 
 };
@@ -19,6 +19,8 @@ changeBgBack = function () {
 
 
 
+
+//event listeners
 easterEgg.addEventListener("mouseenter", changeBg);
 easterEgg.addEventListener("mouseleave", changeBgBack);
 
