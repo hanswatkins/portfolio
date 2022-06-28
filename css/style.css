@@ -62,23 +62,36 @@
 .portrait {
     width: 30%;
     height: 30%;
-    margin: 20px;
+    margin-left: 35%;
 }
 
 #about-impact-text {
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
     font-weight: 800;
-    text-align: center;
-    background-color:#8C8577;
-    width: 40vw;
-    float: right;
-    margin-right: 14vw;
-    margin-top: 3vh;
+    float: left;
+    color:#F2D6BD;
 }
 
 .about-p {
     float: left;
+    color:#F2D6BD;
+}
+
+.languages {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color:#F2D6BD; 
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color:#F2D6BD; 
 }
 
 /* --------------PROJECTS PAGE----------- */
@@ -183,7 +196,7 @@ header {
         float: right;
         margin-right: 14vw;
         margin-top: 15vh;
-}
+    }
 }
 
 /* css hover by Ian Lunn https://github.com/IanLunn/Hover */
@@ -202,6 +215,6 @@ header {
 .hvr-grow:hover,
 .hvr-grow:focus,
 .hvr-grow:active {
-    transform: scale(1.3);
+    transform: scale(1.2);
 }
 
