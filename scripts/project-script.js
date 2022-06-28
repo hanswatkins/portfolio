@@ -1,22 +1,13 @@
-console.log('Connected to script.js!')
+console.log('Connected to project-script.js!')
 
 // query selectors
-const easterEgg = document.querySelector(".home-title");
 const slide1 = document.querySelector("#tictactoe")
 const slide2 = document.querySelector("#tamagotchi")
 const slide3 = document.querySelector("#project3")
 
-//functions
+// functions
 
-//background color change on hover
-changeBg = function () {
-    document.body.style.backgroundColor = '#DB7C26';
-};
-
-changeBgBack = function () {
-    document.body.style.backgroundColor = '#780116';
-};
-
+// change project on click function
 advanceSlide = function () {
     document.getElementById('tictactoe').style.display = "none";
     document.getElementById('tamagotchi').style.display = "block";
@@ -35,20 +26,9 @@ advanceSlide3 = function () {
 
 };
 
-
-
-
-
-
-
-
-
-
 //event listeners
 slide1.addEventListener("click", advanceSlide);
 slide2.addEventListener("click", advanceSlide2);
 slide3.addEventListener("click", advanceSlide3);
-easterEgg.addEventListener("mouseenter", changeBg);
-easterEgg.addEventListener("mouseleave", changeBgBack);
 
 
