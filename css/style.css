@@ -99,11 +99,31 @@ ul {
     background-image: url("/images/broken-noise.png");
     font-family: 'Montserrat', sans-serif;
     color:#F2D6BD;
+    text-align: center;
 }
 
 .project-image {
-    float: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
     padding: 1rem;
+}
+
+article {
+    margin-top: 20vh;
+}
+
+#tictactoe {
+    display: block
+}
+
+#tamagotchi {
+    display: none;
+}
+
+#project3 {
+    display: none;
 }
 
 /* ---------------LINKS PAGE-------------- */
@@ -203,7 +223,6 @@ header {
 
     .portrait {
         width: 15%;
-        top: ;
         left: 50%;
     }
 
