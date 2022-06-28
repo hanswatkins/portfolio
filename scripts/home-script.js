@@ -14,7 +14,6 @@ changeBgBack = function () {
     document.body.style.backgroundColor = '#780116';
 };
 
-
 //event listeners
 hoverColorChange.addEventListener("mouseenter", changeBg);
 hoverColorChange.addEventListener("mouseleave", changeBgBack);

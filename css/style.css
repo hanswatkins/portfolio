@@ -45,8 +45,15 @@
     color: #F2D6BD;
 }
 
-/* --------------ABOUT PAGE --------------*/
+#folder {
+    display: block;
+}
 
+#folder-open {
+    display: none;
+}
+
+/* --------------ABOUT PAGE --------------*/
 .about-header {
     font-family: 'Montserrat';
     color:#F2D6BD
@@ -127,8 +134,6 @@ article {
 }
 
 /* ---------------LINKS PAGE-------------- */
-
-
 .links-page {
     font-family: 'Montserrat', sans-serif;
     background-color: #8C8577;
@@ -237,7 +242,7 @@ header {
         font-size: 1rem;
         display: flex;
         flex-direction: column;
-        margin-top: 33vh;
+        margin-top: 40vh;
         color: #F2D6BD;
     
     }
