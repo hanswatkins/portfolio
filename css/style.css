@@ -4,8 +4,11 @@
 /* -------------------PAGE CLASSES------------------ */
 
 /* --------------------HOME PAGE------------------*/
+
+
 .home-page {
-    background: #2E5159
+    background-color: #8C8577;
+    background-image: url("/images/broken-noise.png");
 }
 
 .home-title {
@@ -22,13 +25,17 @@
 
 .home-title:hover {
     transition: 0.2s;
-    color: white;
+    color: rgb(245, 255, 214);   
     font-size: 35px;
 }
 
 /* --------------NAV PAGE----------------- */
+.nav-body {
+    background-color: #8C8577;;
+    background-image: url("/images/broken-noise.png");
+}
 
-.nav-page {
+.nav-menu {
     font-family: 'Montserrat', sans-serif;
     display: flex;
     flex-direction: column;
@@ -39,33 +46,47 @@
 
 }
 
-
-
 /* --------------ABOUT PAGE --------------*/
 
-.about-page {
-    background-color: #2E5159;
+.about-header {
+    font-family: 'Montserrat';
+    color:#F2D6BD
 }
 
-.about-header {
-    font-family: 'Montserrat', sans-serif;
-
+.about-body {
+    background-color: #8C8577;
+    background-image: url("/images/broken-noise.png");
+    color:#142426;
 }
 
 .portrait {
+    width: 30%;
+    height: 30%;
+    margin: 20px;
+}
 
-    width: 20%;
-    height: 20%;
+#about-impact-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    background-color:#8C8577;
+    width: 40vw;
     float: right;
-    margin-right: 5rem;
+    margin-right: 14vw;
+    margin-top: 3vh;
+}
 
+.about-p {
+    float: left;
 }
 
 /* --------------PROJECTS PAGE----------- */
 .projects-page {
-    background-color: #2E5159;
+    background-color: #8C8577;
+    background-image: url("/images/broken-noise.png");
     font-family: 'Montserrat', sans-serif;
-    color: white;
+    color:#F2D6BD;
 }
 
 .project-image {
@@ -79,6 +100,7 @@
 .links-page {
     font-family: 'Montserrat', sans-serif;
     background-color: #8C8577;
+    background-image: url("/images/broken-noise.png");
     color: #F2D6BD
 }
 
@@ -89,7 +111,7 @@
 }
 
 .find-me-on-the-web {
-    font-size: larger;
+    font-size: 30px;
     text-align: center;
     line-height: 0.5;
     margin-top: 30vh;
@@ -101,6 +123,7 @@
     line-height: 0;
 
 }
+
 
 button {
     text-decoration: none;
@@ -139,18 +162,28 @@ header {
 
 }
 
-.nav-body {
-    background: #142426;
-}
+
 
 
 /*==============================DESKTOP STYLING============================ */
 
-@media (min-width: 600px) {
+@media (min-width: 480px) {
     body {
-        background-color: orange;
+        background-color: rgb(233, 26, 26);
         color: white;
     }
+    
+    #about-impact-text {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 100px;
+        font-weight: 800;
+        text-align: center;
+        background-color:#8C8577;
+        width: 40vw;
+        float: right;
+        margin-right: 14vw;
+        margin-top: 15vh;
+}
 }
 
 /* css hover by Ian Lunn https://github.com/IanLunn/Hover */
@@ -171,3 +204,4 @@ header {
 .hvr-grow:active {
     transform: scale(1.3);
 }
+
